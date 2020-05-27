@@ -51,7 +51,7 @@ const Join = () => {
     return (
         <div style={{ backgroundColor: bgColor }}>
             <div className='header' style={{ color: fontColor }}>
-                <h1 className="appName" style={{ position: 'relative', left: 95, color: fontColor }}>FRIENDSCZAR <span role="img" aria-label="emoji">💬</span></h1>
+                <h1 className="appName" style={{ position: 'relative', left: 95, color: fontColor }}>ROOT <span role="img" aria-label="emoji">💬</span></h1>
                 <h2 className="About" style={{ color: fontColor }}>About</h2>
                 <button className="themeButton" onClick={colorMode} style={{ color: fontColor }}>{theme} Theme</button>
             </div>
