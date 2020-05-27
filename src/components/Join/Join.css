@@ -1,0 +1,111 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .blank{
+      /* background-color: #1A1A1D ; */
+      /* height: 100px; */
+      margin:0 ;
+      text-align: center;
+      color: #1A1A1D;
+  }
+
+
+
+
+
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    /* background-color: #1A1A1D; */
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .title {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      font-size: 17px;
+      width: 100%;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s; 
+     }
+  
+  .button:hover{
+      opacity: 80%;
+  }
+
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+  .themeButton{
+    position: relative;
+    top: 20px;
+    height: 27px;
+    background-color: transparent;
+    border: 1px solid red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; 
+    border-radius: 22px;
+    margin-right: 10px;
+  }
+
+  .themeButton:hover{
+background-color: #2979FF;  }
