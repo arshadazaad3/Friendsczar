@@ -110,7 +110,7 @@ const Chat = ({ location }) => {
             <div>
                 <div className='header' style={{ backgroundColor: '#' + pageColor }}>
                     <h1 className="appName" style={{ color: fontColor }}>FRIENDSCZAR <span role="img" aria-label="emoji">💬</span></h1>
-                    {/* <h2 className="About" style={{ color: fontColor }}>About</h2> */}
+                    <h2 className="About" style={{ color: fontColor }}>About</h2>
                     <button className="themeButton" onClick={colorMode} style={{ color: fontColor }}>{pageTheme} Theme</button>
 
 
