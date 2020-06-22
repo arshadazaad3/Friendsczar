@@ -1,7 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#FRIENDSCZAR
 
-# Freindsczar is A real Time Chat Application That allows multiple users to chat in common room
+#### Freindsczar is A real Time Chat Application That allows multiple users to chat in common room
 
 ## Available Scripts
 
